@@ -1,0 +1,343 @@
+body {
+    background-color: #E5E5E5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding: 2px 0;
+    font-weight: 900;
+}
+    
+    #foto2{
+        
+        margin: 15px 0;
+        transition: all;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+         height: 400px;
+        width: 650px;
+        margin-left: -50px;
+    }
+
+/* nav ul{
+    list-style-type: none;
+    text-align: center;
+ }
+li{
+    line-height: 24px;
+   } */
+
+
+/*--------------------*/
+/*Contenedor Principal*/
+/*--------------------*/
+.response {
+    display: none;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+.contenedor-principal {
+display: flex;
+flex-direction: row-reverse;
+margin: 40px auto;
+width: 1200px;
+}
+.nombre{
+    color: rgb(244, 112, 5);
+   
+}
+.colornaranja {
+
+    color:rgb(244, 112, 5);
+}
+
+
+.informacion-general {   
+    padding: 1px 80px;
+    width: 600px;
+    background-image: url("../img/backdev.jpg") 0.2;
+    
+}
+
+/*Descripcion*/
+.texto-descripcion {
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+   }
+
+.textoDescripcionEnglish
+{
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+   }
+
+.descripcion-profesion {
+    font-size: 14px;
+    font-weight: 700;
+   
+}
+.nombre {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+   }
+/*Secciones principales*/
+
+.titulo-seccion-principal {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+   
+}
+
+.lista-proyectos {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        padding-left: 17px;
+      
+}
+
+.imagen1 .imagen2 .imagen3{
+    transition:all .5s ease-in-out;
+}
+.imagen3:hover {filter: saturate(300%);}
+.imagen2:hover {filter: saturate(300%);}
+.imagen1:hover {filter: saturate(300%);}
+
+
+.enlace-proyecyos {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+
+}
+
+
+.puntitos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding-left: 17px;
+}
+
+
+.periodoempresa {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 15px;
+    margin-bottom: 11px;
+    color: white;
+    background-color: rgb(244, 112, 5);
+    }
+
+.lista-experiencia {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+padding-left: 17px;
+
+}
+/*Seccion Proyectos*/
+.puesto-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.programas {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+
+}
+/*Seccion educacion*/
+
+.educacion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/*--------------------*/
+/*Barra Lateral*/
+/*--------------------*/
+
+#epigrafe{
+  color: white;
+  font-weight: 300;
+}
+.barraLateral {
+    background-color: #010000;
+    width: 400px;
+    text-align: center;
+}
+.titulo {
+    color: rgb(244, 112, 5);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+/*Seccion Contactos*/
+.contactos-tipo {
+    color: white; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contenido-contacto {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px
+}
+.contactos, .habilidades-tecnicas, .habilidades-blandas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/*Seccion de lista*/
+.listalateral {
+    padding-left: 17px;
+}
+.listalateral > li {
+color: rgb(244, 112, 5);
+}
+.item {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.foot{
+        text-align: center;
+       width: 0;
+        overflow: inherit;
+        white-space: nowrap;
+        font-size: 1rem;
+        margin: 2 auto;
+        font-family: "Book Antigua", "Arial", "Courier New";
+        border-right: 0.15em solid #18bdec;
+        animation: typing 4s steps(68) 1s 1 normal both, blink 1s steps(1) infinite;
+        background-color: rgb(244, 112, 5);
+        color: white;
+        animation-play-state: running;
+    }
+    .foot:hover {
+        animation-play-state: running;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+<<<<<<< HEAD
+      .cal{
+
+   background-color: rgb(6, 1, 1);
+   width: 25%;
+   padding: 2%;
+   border-radius: 1cm;
+   position: absolute; 
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+ } 
+
+
+ .convertir {
+    background-color: rgb(27, 59, 27);
+    right: 30px; 
+    padding: 8%;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    }
+ .boton3{
+    display: flex;
+justify-content: center
+  }
+  
+  .boton2{
+  width: 85%;
+  border-radius: 3cm;
+  
+  }
+.tituloapp {
+    
+    width: 100%;
+    color: white;
+    font-size: 50%;
+    background-color: rgb(203, 21, 130);
+    border-radius:22cqh;
+    border-style:groove;
+    border-color:  rgb(75, 114, 75);
+    padding: 2%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    }
+    .resultados{
+        width: 100%;
+        background-color: red;
+    }
+
+
+
+
+    
+=======
+>>>>>>> 0d9b464ebd124be252fdf363ae36f1c8259809d6
