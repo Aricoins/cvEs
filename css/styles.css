@@ -3,6 +3,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     padding: 2px 0;
     font-weight: 900;
+ max-width: calc(100% - 100px);
 }
     
     #foto2{
