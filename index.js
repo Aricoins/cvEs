@@ -23,7 +23,7 @@ function changeScr() {
      document.getElementById("foto").src="snoopy3.gif";
      }
 function returnFoto() {
-     document.getElementById("foto").src="fotoamarilla.jpeg" ;
+     document.getElementById("foto").src="./ariel garcia-rogel.jpeg" ;
      }
 
      
