@@ -336,7 +336,11 @@ justify-content: center
         background-color: red;
     }
 
+#foto{
 
+    border-radius: 80%;
+    width: 90%;
+}
 
 
     
