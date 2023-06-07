@@ -203,12 +203,13 @@ padding-left: 17px;
   font-weight: 300;
 }
 .barraLateral {
-    background-color: #010000;
+    background-color: rgb(244, 112, 5);
     width: 400px;
     text-align: center;
+    border: #2a2323, solid, 50px;
 }
 .titulo {
-    color: rgb(244, 112, 5);
+    color: rgb(6, 3, 0);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -228,29 +229,37 @@ padding-left: 17px;
     color: white;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px
+    font-size: 18px;
+    line-height: 40px
 }
+
 .contactos, .habilidades-tecnicas, .habilidades-blandas {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     color: #FFFFFF;
+}
+.logos{
+    width: 100px;
+    display: flex;
+}
+#logo{
+    width: 100px;
 }
 
 /*Seccion de lista*/
 .listalateral {
     padding-left: 17px;
 }
+
 .listalateral > li {
-color: rgb(244, 112, 5);
+color: rgb(16, 7, 0);
 }
 .item {
     color: white;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 50px;
 }
 .foot{
         text-align: center;
@@ -283,8 +292,7 @@ color: rgb(244, 112, 5);
           border-color: transparent;
         }
       }
-<<<<<<< HEAD
-      .cal{
+    .cal{
 
    background-color: rgb(6, 1, 1);
    width: 25%;
@@ -300,7 +308,7 @@ color: rgb(244, 112, 5);
 
 
  .convertir {
-    background-color: rgb(27, 59, 27);
+    background-color: rgb(55, 59, 27);
     right: 30px; 
     padding: 8%;
     color: white;
@@ -344,5 +352,3 @@ justify-content: center
 
 
     
-=======
->>>>>>> 0d9b464ebd124be252fdf363ae36f1c8259809d6
