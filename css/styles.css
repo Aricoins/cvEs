@@ -5,11 +5,7 @@ body {
     font-weight: 900;
  max-width: calc(100% - 100px);
 }
-.whatsapqr{
-    width: 6em;}
-    .whatsapqr:hover{
-           width: 40em;
-        }
+
 
     #foto2{
         
@@ -244,13 +240,29 @@ padding-left: 17px;
     color: #FFFFFF;
 }
 .logos{
-    width: 100px;
+    width: 80%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
 }
-#logo{
+.logo{
     width: 7em;
     height: 6em;
     padding: 5%;
+}
+.whatsapqr{
+    width: 5em;
+    position: relative;
+    background: rgb(6, 241, 13);
+    margin-left: 20%;
+}
+
+.whatsapqr:hover{
+    width: 40em;
+    background: rgb(6, 241, 13);
+    padding: 10%;
+    justify-content: center;
 }
 
 
