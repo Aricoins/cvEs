@@ -6,11 +6,11 @@ body {
  max-width: calc(100% - 100px);
 }
 .whatsapqr{
-    width: 7em;}
+    width: 6em;}
     .whatsapqr:hover{
            width: 40em;
         }
-        
+
     #foto2{
         
         margin: 15px 0;
