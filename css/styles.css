@@ -7,6 +7,23 @@ body {
 }
 
 
+
+.botonesTop{ 
+color: white;
+text-emphasis-color: white;
+background-color: rgb(248, 223, 223); 
+padding: 1%;
+border-bottom: #E5E5E5;
+margin: 1%;
+
+}
+.botonesTop a {
+    text-decoration: none;
+}
+a:active{
+    color: white;
+}
+
     #foto2{
         
         margin: 15px 0;
