@@ -259,9 +259,9 @@ padding-left: 17px;
 }
 
 .whatsapqr:hover{
-    width: 40em;
+    width: 20em;
     background: rgb(6, 241, 13);
-    padding: 10%;
+    padding: 5%;
     justify-content: center;
 }
 
