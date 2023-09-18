@@ -141,26 +141,11 @@
             </ul>
         </div>
     </div>
-    <div>
-        <!-- Botón personalizado para imprimir -->
-        <button onclick="imprimirPDF()">Imprimir PDF</button>
-    </div>
-    
+   
     <!-- Elemento <embed> para mostrar el PDF -->
     <embed id="pdfViewer" src="cveng.pdf" type="application/pdf" width="60%" height="400px" controls>
     
-    <script>
-        // Función para imprimir el PDF
-        function imprimirPDF() {
-            var pdfViewer = document.getElementById('pdfViewer');
-            if (pdfViewer) {
-                pdfViewer.focus();
-                pdfViewer.print();
-            }
-        }
-    </script>
-
-    <!-- Sidebar -->
+      <!-- Sidebar -->
     <aside class="barraLateral">
 
         <figure>
