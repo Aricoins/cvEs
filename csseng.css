@@ -57,14 +57,15 @@ li{
     left: 15px;
     margin: 0;
     padding: 0;
-    width: 500px;
+    width: 100px;
 }
 
 .contenedor-principal {
-display: flex;
-flex-direction: row-reverse;
-margin: 40px auto;
-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 100%;
+
 }
 .nombre{
     color: rgb(244, 112, 5);
@@ -222,10 +223,20 @@ padding-left: 17px;
   font-weight: 300;
 }
 .barraLateral {
-    background-color: rgb(244, 112, 5);
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%; /* Cambiado a un valor específico, como 10% */
+    right: 1%;
+    bottom: 0; /* Agregado para que ocupe todo el alto disponible */
     width: 400px;
+    background-color: rgb(244, 112, 5);
     text-align: center;
-    border: #2a2323, solid, 50px;
+    overflow-y: auto;
+    
+    
+    
 }
 .titulo {
     color: rgb(6, 3, 0);
@@ -258,43 +269,28 @@ padding-left: 17px;
     color: #FFFFFF;
 }
 .logos{
-    width: 80%;
+    width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center
-}
+    justify-content: left;
+    }
 .logo{
     width: 100px;
-    height: 6em;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
     padding: 5%;
 }
+
 .whatsapqr{
-    width: 100px;
+    width: 1em;
     position: relative;
     background: rgb(6, 241, 13);
     margin-left: 20%;
 }
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
- }
 
 .whatsapqr:hover{
-    -webkit-animation-duration: 10s;
-            animation-duration: 10s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
     width: 8em;
     background: rgb(6, 241, 13);
     justify-content: center;
@@ -359,7 +355,7 @@ color: rgb(16, 7, 0);
    position: absolute; 
    display: flex;
    justify-content: center;
-   flex-direction: column;
+   flex-direction: row;
    align-items: center;
 
  } 
